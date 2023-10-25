@@ -6,7 +6,7 @@ from OpenGL.GLU import *
 pygame.init()
 display = (800, 600)
 pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
-pygame.display.set_caption("04 Lab 1 - Janabajab")
+pygame.display.set_caption("04 Lab 1 - Kaleid")
 glEnable(GL_DEPTH_TEST)
 gluPerspective(45, (display[0] / display[1]), 0.1, 50.0)
 glTranslatef(0, 0, -5)
